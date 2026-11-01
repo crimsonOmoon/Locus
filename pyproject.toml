@@ -1,0 +1,9 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "locus"
+version = "0.1.0"
+description = "Bi-temporal, ACT-R cognitive memory engine in Rust for AI agents"
+requires-python = ">=3.10"
