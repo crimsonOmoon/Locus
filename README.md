@@ -13,7 +13,7 @@
 
 Existing memory frameworks force painful trade-offs between latency, infrastructure complexity, and accuracy:
 
-| Feature / Capability | Mem0 (OSS) | Zep / Graphiti | Letta | Claude Memory | **Locus (Ours)** |
+| Feature / Capability | Mem0 (OSS) | Zep / Graphiti | Letta | Claude Memory | **Locus (This)** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Core Structure** | Vector store (Graph paywalled) | Bi-temporal KG (Requires Neo4j/FalkorDB) | Agent-editable blocks + archival | Topic list + chat search | **Embedded Bi-Temporal KG + Vector + FTS5 + Core Blocks** |
 | **Write-Path Latency** | Slow (LLM calls on every write) | Slow (LLM graph extraction per turn) | Moderate (Tool call overhead) | Automatic / Manual | **`~2.0 ms` per turn (Zero-LLM Fast-Path + Async Sleep Worker)** |
