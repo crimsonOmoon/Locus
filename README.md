@@ -1,4 +1,4 @@
-# 🧠 Locus: Bi-Temporal Cognitive Memory Engine for AI Agents
+# 🧠 Locus: Bi-Temporal Cognitive Memory Management for LLMs
 
 [![Rust Core](https://img.shields.io/badge/Core-Rust%20%2B%20PyO3-orange?logo=rust)](https://github.com/crimsonOmoon/Locus)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://github.com/crimsonOmoon/Locus)
